@@ -1,8 +1,9 @@
-println("Hello World");
+//Global Variables
 //
 //Fitting CANVAS into Monitor Display
 //
-//Declairing Display Gemotery: landscape, square, portrait
+//Declaring Display Geometry: landscape, square, portrait
+size(); //Able to deploy with fullScreen();
 //
 //Outputting instructions to user when errors with above
 //Bru, turn your phum
