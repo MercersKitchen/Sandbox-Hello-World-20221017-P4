@@ -1,7 +1,4 @@
 
-void draw() {} //End draw
-void keyPressed() {} //End keyPressed
-void mousePressed() {} //End mousePressed
 
 //Global Variables
 int appWidth, appHeight;
@@ -29,3 +26,11 @@ void setup() {
   if (orientation == p ) println(instruct); //Later, output to CANVAS
   //
 } //End setup
+//
+void draw() {} //End draw
+//
+void keyPressed() {} //End keyPressed
+//
+void mousePressed() {} //End mousePressed
+//
+// End Main Program
