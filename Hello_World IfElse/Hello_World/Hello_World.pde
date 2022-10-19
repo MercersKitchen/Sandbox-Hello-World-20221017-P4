@@ -1,20 +1,20 @@
-
-
 //Global Variables
 int appWidth, appHeight;
 //
 void setup() {
   //Declaring Display Geometry: landscape, square, portrait
-  size(600, 700); //Able to deploy with fullScreen();
+  size(700, 400); //Able to deploy with fullScreen();
+  //fullScreen();
   appWidth = width;
   appHeight = height;
   //Concatenation: , or + (i.e space)
   println("\t\t\tWidth="+width, "\tHeight="+height);
   println("Display Monitor:", "\twidth:"+displayWidth, "\theight:"+displayHeight);
   //
+  if () {} else {}
   //Fitting CANVAS into Monitor Display
   if ( appWidth > displayWidth ) appWidth=0; //CANVAS-width will not fit
-  if ( appHeight > displayHeight ) appHeight=0; //CANVAS-width will not fit
+  if ( appHeight > displayHeight ) appHeight=0; //CANVAS-height will not fit
   //
   //Outputting instructions to user when errors with above
   if ( appWidth==0 || appHeight==0 ) println("STOP, is broken"); //OR
