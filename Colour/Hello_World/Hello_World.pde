@@ -43,10 +43,10 @@ void setup() {
 void draw() {
   // New Background Function "covers" old gray scale background()
   // Night Mode means background cannot have blue // change randome for night mode, hard code "0"
-  background(100); //Gray Scale (0-255) & Blue Issue for night mode
+  //background(100); //Gray Scale (0-255) & Blue Issue for night mode
   //
   //Casting Reminder
-  //background( color( random(0 , 255), random(0 , 255), random(0 , 255) ) ); // Colour without blue
+  background( color( random(0 , 255), random(0 , 255), random(0 , 255) ) ); // Colour without blue
   //
   //background( blackNightMode );
   strokeWeight( thick );
