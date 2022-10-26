@@ -41,7 +41,7 @@ void draw() {
   background(100); //Gray Scale (0-255) & Blue Issue for night mode
   //
   //Casting Reminder
-  background( color( r, g, b ) ); // Colour without blue
+  background( color( random(0 , 255), random(0 , 255), random(0 , 255) ) ); // Colour without blue
   rect(xStart, yStart, widthRect, heightRect);
 } //End draw
 //
