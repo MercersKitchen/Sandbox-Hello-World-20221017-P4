@@ -1,7 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 float centerX, centerY, xStart, yStart, widthRect, heightRect;
-color blackNightMode=#000000; //Hexidecimal
+color blackNightMode=#000000, yellow=#F8FC64; //Hexidecimal
 float thin, normal, thick;
 //
 void setup() {
