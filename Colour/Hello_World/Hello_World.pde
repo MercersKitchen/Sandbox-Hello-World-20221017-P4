@@ -46,11 +46,14 @@ void draw() {
   background(100); //Gray Scale (0-255) & Blue Issue for night mode
   //
   //Casting Reminder
-  background( color( random(0 , 255), random(0 , 255), random(0 , 255) ) ); // Colour without blue
+  //background( color( random(0 , 255), random(0 , 255), random(0 , 255) ) ); // Colour without blue
   //
-  background( blackNightMode );
+  //background( blackNightMode );
   strokeWeight( thick );
+  stroke(); 
   rect(xStart, yStart, widthRect, heightRect);
+  stroke(1); //default reset
+  strokeWeight(1); //default reset
 } //End draw
 //
 void keyPressed() {
