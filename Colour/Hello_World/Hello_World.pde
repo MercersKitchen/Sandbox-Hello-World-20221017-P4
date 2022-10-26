@@ -1,6 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 float centerX, centerY, xStart, yStart, widthRect, heightRect;
+color blackDayLight=#000000; //Hexidecimal
 //
 void setup() {
   //Declaring Display Geometry: landscape, square, portrait
@@ -42,6 +43,8 @@ void draw() {
   //
   //Casting Reminder
   background( color( random(0 , 255), random(0 , 255), random(0 , 255) ) ); // Colour without blue
+  //
+  background( black );
   rect(xStart, yStart, widthRect, heightRect);
 } //End draw
 //
