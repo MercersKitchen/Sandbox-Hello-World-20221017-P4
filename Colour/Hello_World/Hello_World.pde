@@ -50,7 +50,7 @@ void draw() {
   //
   //background( blackNightMode );
   strokeWeight( thick );
-  stroke(); 
+  stroke( yellow ); 
   rect(xStart, yStart, widthRect, heightRect);
   stroke(1); //default reset
   strokeWeight(1); //default reset
