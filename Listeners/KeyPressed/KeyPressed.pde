@@ -1,11 +1,18 @@
 //Global Variables
 //
-void setup() {}//End setup
+void setup() {
+  
+}//End setup
 //
-void draw() {}//End draw
+void draw() {
+  if () println("I am nocturnal!");
+  if () println("");
+}//End draw
 //
-void keyPressed() {}//End keyPressed
+void keyPressed() {
+}//End keyPressed
 //
-void mousePressed() {}//End mousePressed
+void mousePressed() {
+}//End mousePressed
 //
 //End Main Program
