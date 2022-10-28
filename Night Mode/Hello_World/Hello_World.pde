@@ -53,16 +53,14 @@ void draw() {
   strokeWeight( thick );
   if ( nightMode == true)
   {
-    stroke( yellow ); 
-    fill( purple ); 
+    background( blackNightMode );
+    stroke( yellowNightMode ); 
+    fill( purpleNightMode ); 
   } else
   {
     stroke( yellow ); 
     fill( purple ); 
   }
-  //background( blackNightMode );
-  
-  
   rect(xStart, yStart, widthRect, heightRect);
   fill( white ); //default reset
   stroke( blackNightMode ); //default reset
