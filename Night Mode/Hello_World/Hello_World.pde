@@ -49,7 +49,7 @@ void draw() {
   //Casting Reminder
   if ( backgroundColour == true ) background( color( random(0 , 255), random(0 , 255), random(0 , 255) ) ); // Colour without blue
   //
-  background( blackNightMode );
+  //background( blackNightMode );
   strokeWeight( thick );
   stroke( yellow ); 
   fill( purple ); 
@@ -60,7 +60,10 @@ void draw() {
 } //End draw
 //
 void keyPressed() {
+  grayScale = false;
+  backgroundColour = false;
   if ( key == 'G' || key == 'g' ) grayScale = true;
+  if ( key == 'B' || key == 'b' ) backgroundColour = true;
 } //End keyPressed
 //
 void mousePressed() {
