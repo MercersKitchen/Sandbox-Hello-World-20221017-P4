@@ -60,6 +60,7 @@ void draw() {
 } //End draw
 //
 void keyPressed() {
+  if ( key == 'G' || key == 'g' ) grayScale = true;
 } //End keyPressed
 //
 void mousePressed() {
